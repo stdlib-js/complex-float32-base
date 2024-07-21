@@ -72,9 +72,28 @@ var ns = complex;
 // returns {...}
 ```
 
+The namespace contains the following sub-namespaces:
+
+<!-- <toc pattern="+(assert)"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`assert`][@stdlib/complex/float32/base/assert]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) single-precision complex floating-point number assertion functions.</span>
+
+</div>
+
+<!-- </toc> -->
+
 The namespace contains the following functions:
 
 <!-- <toc pattern="*"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`add( z1, z2 )`][@stdlib/complex/float32/base/add]</span><span class="delimiter">: </span><span class="description">add two single-precision complex floating-point numbers.</span>
+-   <span class="signature">[`mul( z1, z2 )`][@stdlib/complex/float32/base/mul]</span><span class="delimiter">: </span><span class="description">multiply two single-precision complex floating-point numbers.</span>
+
+</div>
 
 <!-- </toc> -->
 
@@ -190,6 +209,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-float32-base/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/complex/float32/base/add]: https://github.com/stdlib-js/complex-float32-base-add
+
+[@stdlib/complex/float32/base/assert]: https://github.com/stdlib-js/complex-float32-base-assert
+
+[@stdlib/complex/float32/base/mul]: https://github.com/stdlib-js/complex-float32-base-mul
 
 <!-- </toc-links> -->
 
