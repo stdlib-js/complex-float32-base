@@ -212,9 +212,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/complex/float32/base/add]: https://github.com/stdlib-js/complex-float32-base-add
 
-[@stdlib/complex/float32/base/assert]: https://github.com/stdlib-js/complex-float32-base-assert
-
 [@stdlib/complex/float32/base/mul]: https://github.com/stdlib-js/complex-float32-base-mul
+
+[@stdlib/complex/float32/base/assert]: https://github.com/stdlib-js/complex-float32-base-assert
 
 <!-- </toc-links> -->
 
