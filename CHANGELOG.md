@@ -4,53 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-09-01)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+No changes reported for this release.
 
 </section>
 
 <!-- /.release -->
 
+<section class="release" id="v0.1.1">
+
 ## 0.1.1 (2024-07-28)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2024-07-28)
 
@@ -80,8 +52,7 @@
 
 ##### BREAKING CHANGES
 
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations
 
     -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
 
@@ -138,8 +109,7 @@
 
 ##### BREAKING CHANGES
 
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations
 
     -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
 
@@ -271,8 +241,7 @@
 
 ### BREAKING CHANGES
 
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations
 
     -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
 
@@ -322,4 +291,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
 
