@@ -42,7 +42,10 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-float32": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-method": "^0.2.2",
+    "@stdlib/assert-is-same-float32array": "^0.2.2",
     "@stdlib/complex-float32-base-assert-is-equal": "^0.1.1",
     "@stdlib/complex-float32-base-assert-is-not-equal": "^0.1.1",
     "@stdlib/complex-float32-base-assert-is-same-value": "^0.1.1",
@@ -57,9 +60,11 @@
     "@stdlib/number-float32-base-assert-is-same-value": "^0.2.2",
     "@stdlib/number-float32-base-assert-is-same-value-zero": "^0.2.1",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
+    "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
