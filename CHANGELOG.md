@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-17)
+## Unreleased (2025-04-20)
 
 <section class="packages">
 
@@ -33,6 +33,53 @@
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
 
     -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6698](https://github.com/stdlib-js/stdlib/issues/6698)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float32-base-identity-unreleased">
+
+#### [@stdlib/complex/float32/base/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/identity)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7) - update `complex/float32/base/identity` to accept stdlib complex numbers [(#6235)](https://github.com/stdlib-js/stdlib/pull/6235)
+-   [`31343c9`](https://github.com/stdlib-js/stdlib/commit/31343c901e94328361327c4d7054a71052599916) - add `complex/float32/base/identity`
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7): use stdlib C complex64 dtype
+
+    -   To migrate, users should provide a value having the type `stdlib_complex64_t`, rather than a built-in C99 single-precision complex dtype. This dtype is available via the package `@stdlib/complex-float32/ctor`.
 
 </section>
 
@@ -78,6 +125,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="complex-float32-base-neg-unreleased">
+
+#### [@stdlib/complex/float32/base/neg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/neg)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4866c10`](https://github.com/stdlib-js/stdlib/commit/4866c103418bc09e2c11a3f0238ac6941e830eca) - add `complex/float32/base/neg`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float32-base-sub-unreleased">
+
+#### [@stdlib/complex/float32/base/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/sub)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3a62008`](https://github.com/stdlib-js/stdlib/commit/3a620083a7978286cc05db9231ecbee4d0478e1a) - add `complex/float32/base/sub`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -85,6 +176,10 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7): use stdlib C complex64 dtype
+
+    -   To migrate, users should provide a value having the type `stdlib_complex64_t`, rather than a built-in C99 single-precision complex dtype. This dtype is available via the package `@stdlib/complex-float32/ctor`.
 
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
 
@@ -98,9 +193,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#5203](https://github.com/stdlib-js/stdlib/issues/5203)
+[#5203](https://github.com/stdlib-js/stdlib/issues/5203), [#6698](https://github.com/stdlib-js/stdlib/issues/6698)
 
 </section>
 
@@ -110,9 +205,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
+-   Karan Anand
+-   Philipp Burckhardt
+-   SAHIL KUMAR
 -   Shabareesh Shetty
 
 </section>
@@ -125,6 +224,13 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`93a9aa2`](https://github.com/stdlib-js/stdlib/commit/93a9aa2f18ce81d06fdaf04c136ed48851eb11f0) - **chore:** fix JavaScript lint errors [(#6699)](https://github.com/stdlib-js/stdlib/pull/6699) _(by SAHIL KUMAR, Philipp Burckhardt)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7) - **feat:** update `complex/float32/base/identity` to accept stdlib complex numbers [(#6235)](https://github.com/stdlib-js/stdlib/pull/6235) _(by Gururaj Gurram)_
+-   [`31343c9`](https://github.com/stdlib-js/stdlib/commit/31343c901e94328361327c4d7054a71052599916) - **feat:** add `complex/float32/base/identity` _(by Gururaj Gurram)_
+-   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3a62008`](https://github.com/stdlib-js/stdlib/commit/3a620083a7978286cc05db9231ecbee4d0478e1a) - **feat:** add `complex/float32/base/sub` _(by Gururaj Gurram)_
+-   [`4866c10`](https://github.com/stdlib-js/stdlib/commit/4866c103418bc09e2c11a3f0238ac6941e830eca) - **feat:** add `complex/float32/base/neg` _(by Gururaj Gurram)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
 -   [`d7154e2`](https://github.com/stdlib-js/stdlib/commit/d7154e2c7756ce51a9bbbf38848960ea988d4ea6) - **feat:** add `strided` and `assign` APIs to `complex/float32/base/mul` [(#5205)](https://github.com/stdlib-js/stdlib/pull/5205) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`40308a8`](https://github.com/stdlib-js/stdlib/commit/40308a8953dd480537d4c4359cc6e09f679e3ec1) - **build:** update configurations _(by Athan Reines)_
