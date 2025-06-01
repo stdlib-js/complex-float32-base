@@ -4,174 +4,24 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-21)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="complex-float32-base-unreleased">
-
-#### [@stdlib/complex/float32/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base)
-
-<details>
+## Unreleased (2025-06-01)
 
 <section class="features">
 
-##### Features
+### Features
 
--   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
-
-    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#6698](https://github.com/stdlib-js/stdlib/issues/6698)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-identity-unreleased">
-
-#### [@stdlib/complex/float32/base/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/identity)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`6afa527`](https://github.com/stdlib-js/stdlib/commit/6afa5271c97c6b90710a4fb15d34bf04e8ae71b4) - add `scale` to namespace
+-   [`7475c9d`](https://github.com/stdlib-js/stdlib/commit/7475c9dfd5461211d8071b7073b8958300dd5838) - add `complex/float32/base/scale` [(#7156)](https://github.com/stdlib-js/stdlib/pull/7156)
 -   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7) - update `complex/float32/base/identity` to accept stdlib complex numbers [(#6235)](https://github.com/stdlib-js/stdlib/pull/6235)
 -   [`31343c9`](https://github.com/stdlib-js/stdlib/commit/31343c901e94328361327c4d7054a71052599916) - add `complex/float32/base/identity`
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7): use stdlib C complex64 dtype
-
-    -   To migrate, users should provide a value having the type `stdlib_complex64_t`, rather than a built-in C99 single-precision complex dtype. This dtype is available via the package `@stdlib/complex-float32/ctor`.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-mul-unreleased">
-
-#### [@stdlib/complex/float32/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/mul)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`3a62008`](https://github.com/stdlib-js/stdlib/commit/3a620083a7978286cc05db9231ecbee4d0478e1a) - add `complex/float32/base/sub`
+-   [`4866c10`](https://github.com/stdlib-js/stdlib/commit/4866c103418bc09e2c11a3f0238ac6941e830eca) - add `complex/float32/base/neg`
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`d7154e2`](https://github.com/stdlib-js/stdlib/commit/d7154e2c7756ce51a9bbbf38848960ea988d4ea6) - add `strided` and `assign` APIs to `complex/float32/base/mul` [(#5205)](https://github.com/stdlib-js/stdlib/pull/5205)
 
 </section>
 
 <!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#5203](https://github.com/stdlib-js/stdlib/issues/5203)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-neg-unreleased">
-
-#### [@stdlib/complex/float32/base/neg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/neg)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4866c10`](https://github.com/stdlib-js/stdlib/commit/4866c103418bc09e2c11a3f0238ac6941e830eca) - add `complex/float32/base/neg`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-sub-unreleased">
-
-#### [@stdlib/complex/float32/base/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/sub)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3a62008`](https://github.com/stdlib-js/stdlib/commit/3a620083a7978286cc05db9231ecbee4d0478e1a) - add `complex/float32/base/sub`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -201,29 +51,14 @@ A total of 2 issues were closed in this release:
 
 <!-- /.issues -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 6 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Gururaj Gurram
--   Karan Anand
--   Philipp Burckhardt
--   SAHIL KUMAR
--   Shabareesh Shetty
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`6afa527`](https://github.com/stdlib-js/stdlib/commit/6afa5271c97c6b90710a4fb15d34bf04e8ae71b4) - **feat:** add `scale` to namespace _(by Athan Reines)_
+-   [`7475c9d`](https://github.com/stdlib-js/stdlib/commit/7475c9dfd5461211d8071b7073b8958300dd5838) - **feat:** add `complex/float32/base/scale` [(#7156)](https://github.com/stdlib-js/stdlib/pull/7156) _(by Shabareesh Shetty, Athan Reines)_
 -   [`c3320f1`](https://github.com/stdlib-js/stdlib/commit/c3320f1da27e449679eecd2f19f865ae60f72aa5) - **docs:** update namespace table of contents [(#6764)](https://github.com/stdlib-js/stdlib/pull/6764) _(by stdlib-bot)_
 -   [`93a9aa2`](https://github.com/stdlib-js/stdlib/commit/93a9aa2f18ce81d06fdaf04c136ed48851eb11f0) - **chore:** fix JavaScript lint errors [(#6699)](https://github.com/stdlib-js/stdlib/pull/6699) _(by SAHIL KUMAR, Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
@@ -241,6 +76,23 @@ A total of 6 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 6 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Gururaj Gurram
+-   Karan Anand
+-   Philipp Burckhardt
+-   SAHIL KUMAR
+-   Shabareesh Shetty
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -260,216 +112,24 @@ No changes reported for this release.
 
 ## 0.1.0 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="complex-float32-base-v0.1.0">
-
-#### [@stdlib/complex/float32/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
 -   [`ea241a3`](https://github.com/stdlib-js/stdlib/commit/ea241a32e7bbd7f346ff993d932adbd1857108e1) - add `assert` to namespace
--   [`21604d0`](https://github.com/stdlib-js/stdlib/commit/21604d0a1efaa60b3e2f477d36cdcb967312904d) - add `complex/float32/base` namespace
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations
-
-    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-add-v0.1.0">
-
-#### [@stdlib/complex/float32/base/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/add)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`10ef39d`](https://github.com/stdlib-js/stdlib/commit/10ef39d7b94513bf84f70eef5a673725f155e3d5) - add `complex/float32/base/add`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-assert-v0.1.0">
-
-#### [@stdlib/complex/float32/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/assert)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
 -   [`69eecad`](https://github.com/stdlib-js/stdlib/commit/69eecadd785a9ba5732e2d136b8755cad6341fd0) - add `complex/float32/base/assert` namespace
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations
-
-    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-assert-is-equal-v0.1.0">
-
-#### [@stdlib/complex/float32/base/assert/is-equal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/assert/is-equal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`53ff701`](https://github.com/stdlib-js/stdlib/commit/53ff701453daab8775e560a20384b37522e48c54) - add `complex/float32/base/assert/is-equal`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-assert-is-not-equal-v0.1.0">
-
-#### [@stdlib/complex/float32/base/assert/is-not-equal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/assert/is-not-equal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`21604d0`](https://github.com/stdlib-js/stdlib/commit/21604d0a1efaa60b3e2f477d36cdcb967312904d) - add `complex/float32/base` namespace
+-   [`d6bba38`](https://github.com/stdlib-js/stdlib/commit/d6bba3883b442a2338fb2dbc6a97c6fe6b69edd5) - add `complex/float32/base/mul`
+-   [`10ef39d`](https://github.com/stdlib-js/stdlib/commit/10ef39d7b94513bf84f70eef5a673725f155e3d5) - add `complex/float32/base/add`
 -   [`77517fe`](https://github.com/stdlib-js/stdlib/commit/77517fea863cd0df1defa56ae9619bcd4f73b1b7) - add `complex/float32/base/assert/is-not-equal`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-assert-is-same-value-v0.1.0">
-
-#### [@stdlib/complex/float32/base/assert/is-same-value](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/assert/is-same-value)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`53ff701`](https://github.com/stdlib-js/stdlib/commit/53ff701453daab8775e560a20384b37522e48c54) - add `complex/float32/base/assert/is-equal`
+-   [`6e0db34`](https://github.com/stdlib-js/stdlib/commit/6e0db34815925043c2b92c2e984a6c7f064bce3f) - add `complex/float32/base/assert/is-same-value-zero`
 -   [`5ee47a5`](https://github.com/stdlib-js/stdlib/commit/5ee47a5cb81f9ed1694606d1cba77a542e8cc0b2) - add `complex/float32/assert/is-same-value`
 
 </section>
 
 <!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-assert-is-same-value-zero-v0.1.0">
-
-#### [@stdlib/complex/float32/base/assert/is-same-value-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/assert/is-same-value-zero)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6e0db34`](https://github.com/stdlib-js/stdlib/commit/6e0db34815925043c2b92c2e984a6c7f064bce3f) - add `complex/float32/base/assert/is-same-value-zero`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="complex-float32-base-mul-v0.1.0">
-
-#### [@stdlib/complex/float32/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32/base/mul)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d6bba38`](https://github.com/stdlib-js/stdlib/commit/d6bba3883b442a2338fb2dbc6a97c6fe6b69edd5) - add `complex/float32/base/mul`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -482,19 +142,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -525,6 +172,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
