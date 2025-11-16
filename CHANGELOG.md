@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
 ### Features
 
+-   [`9f96d8d`](https://github.com/stdlib-js/stdlib/commit/9f96d8df1b8e843be0ee98019248a8399745d0f8) - update `complex/float32/base` TypeScript declarations
+-   [`46781e0`](https://github.com/stdlib-js/stdlib/commit/46781e08e44b6f569313453dfd517799e98da393) - update `complex/float32/base/assert` TypeScript declarations
+-   [`c60545c`](https://github.com/stdlib-js/stdlib/commit/c60545c5ac8624783808e72e5a91dbbf6ddb7cad) - add `complex/float32/base/mul-add` [(#5214)](https://github.com/stdlib-js/stdlib/pull/5214)
+-   [`7c8ed3b`](https://github.com/stdlib-js/stdlib/commit/7c8ed3b2052a00de76bfdb1a4f5a8fb31cf98881) - add strided and assign APIs to `complex/float32/base/add` [(#5391)](https://github.com/stdlib-js/stdlib/pull/5391)
+-   [`da256e5`](https://github.com/stdlib-js/stdlib/commit/da256e5fe42c5c31463be8f7e3a2c1b35c8c7144) - add `isAlmostEqual` to namespace
+-   [`9d89154`](https://github.com/stdlib-js/stdlib/commit/9d8915457450867faad800fea902a043423f0e0e) - add `complex/float32/base/assert/is-almost-equal` [(#7622)](https://github.com/stdlib-js/stdlib/pull/7622)
 -   [`6afa527`](https://github.com/stdlib-js/stdlib/commit/6afa5271c97c6b90710a4fb15d34bf04e8ae71b4) - add `scale` to namespace
 -   [`7475c9d`](https://github.com/stdlib-js/stdlib/commit/7475c9dfd5461211d8071b7073b8958300dd5838) - add `complex/float32/base/scale` [(#7156)](https://github.com/stdlib-js/stdlib/pull/7156)
 -   [`8ab1153`](https://github.com/stdlib-js/stdlib/commit/8ab1153533c1dcbe7eb1ce05590843dbeffa67e7) - update `complex/float32/base/identity` to accept stdlib complex numbers [(#6235)](https://github.com/stdlib-js/stdlib/pull/6235)
@@ -43,9 +49,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#5203](https://github.com/stdlib-js/stdlib/issues/5203), [#6698](https://github.com/stdlib-js/stdlib/issues/6698)
+[#5196](https://github.com/stdlib-js/stdlib/issues/5196), [#5203](https://github.com/stdlib-js/stdlib/issues/5203), [#5213](https://github.com/stdlib-js/stdlib/issues/5213), [#6698](https://github.com/stdlib-js/stdlib/issues/6698)
 
 </section>
 
@@ -57,6 +63,31 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`9f96d8d`](https://github.com/stdlib-js/stdlib/commit/9f96d8df1b8e843be0ee98019248a8399745d0f8) - **feat:** update `complex/float32/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`46781e0`](https://github.com/stdlib-js/stdlib/commit/46781e08e44b6f569313453dfd517799e98da393) - **feat:** update `complex/float32/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`6af3333`](https://github.com/stdlib-js/stdlib/commit/6af33331f46100b46fdb69dc89a4c08299371951) - **test:** use strictEqual check _(by Philipp Burckhardt)_
+-   [`c60545c`](https://github.com/stdlib-js/stdlib/commit/c60545c5ac8624783808e72e5a91dbbf6ddb7cad) - **feat:** add `complex/float32/base/mul-add` [(#5214)](https://github.com/stdlib-js/stdlib/pull/5214) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`7c8ed3b`](https://github.com/stdlib-js/stdlib/commit/7c8ed3b2052a00de76bfdb1a4f5a8fb31cf98881) - **feat:** add strided and assign APIs to `complex/float32/base/add` [(#5391)](https://github.com/stdlib-js/stdlib/pull/5391) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
+-   [`da256e5`](https://github.com/stdlib-js/stdlib/commit/da256e5fe42c5c31463be8f7e3a2c1b35c8c7144) - **feat:** add `isAlmostEqual` to namespace _(by Philipp Burckhardt)_
+-   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`71e8e76`](https://github.com/stdlib-js/stdlib/commit/71e8e767185b454e8f68d7fee778f3177f2e7f85) - **test:** add TS test for third parameter _(by Philipp Burckhardt)_
+-   [`9d89154`](https://github.com/stdlib-js/stdlib/commit/9d8915457450867faad800fea902a043423f0e0e) - **feat:** add `complex/float32/base/assert/is-almost-equal` [(#7622)](https://github.com/stdlib-js/stdlib/pull/7622) _(by Karan Anand)_
+-   [`8ea46b6`](https://github.com/stdlib-js/stdlib/commit/8ea46b662dc6e27231d250d101e33a3cf770cd77) - **test:** update descriptions to match language used in JS tests _(by Philipp Burckhardt)_
+-   [`dd6d9cf`](https://github.com/stdlib-js/stdlib/commit/dd6d9cff0105270f0664490f3c89b36d4df89032) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`46ff8ea`](https://github.com/stdlib-js/stdlib/commit/46ff8ea7761ae438c4718681c5890f146fb0985e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`3bf64b6`](https://github.com/stdlib-js/stdlib/commit/3bf64b62546b1101028888918c0c6baf78de7781) - **docs:** update examples for `complex/float32/base/neg` [(#7291)](https://github.com/stdlib-js/stdlib/pull/7291) _(by Shabareesh Shetty, Athan Reines)_
+-   [`d1c3e38`](https://github.com/stdlib-js/stdlib/commit/d1c3e38f0b788040e73f2ae4c6402e1d1337697c) - **docs:** update examples for `complex/float32/base/identity` [(#7289)](https://github.com/stdlib-js/stdlib/pull/7289) _(by Shabareesh Shetty)_
+-   [`568a25d`](https://github.com/stdlib-js/stdlib/commit/568a25d9a472197659a97d53e7c27cbe455f1bbe) - **docs:** update examples for `complex/float32/base/mul` [(#7290)](https://github.com/stdlib-js/stdlib/pull/7290) _(by Shabareesh Shetty)_
+-   [`30c471f`](https://github.com/stdlib-js/stdlib/commit/30c471f4887835a6ca2827fa9ef3cb2abb1756af) - **docs:** update examples for `complex/float32/base/scale` [(#7292)](https://github.com/stdlib-js/stdlib/pull/7292) _(by Shabareesh Shetty)_
+-   [`93d2533`](https://github.com/stdlib-js/stdlib/commit/93d2533ff20f6ac32d1b1c35d04679a33476c34c) - **docs:** update examples for `complex/float32/base/sub` [(#7293)](https://github.com/stdlib-js/stdlib/pull/7293) _(by Shabareesh Shetty)_
+-   [`74a62b6`](https://github.com/stdlib-js/stdlib/commit/74a62b6ea9087704c9890d3a220f952bc97a45c5) - **docs:** update examples for `complex/float32/base/add` [(#7288)](https://github.com/stdlib-js/stdlib/pull/7288) _(by Shabareesh Shetty)_
+-   [`920ac76`](https://github.com/stdlib-js/stdlib/commit/920ac76fffbe4c5513bc7820c09b5b5fc3b507bb) - **chore:** change naming and examples for `complex/float32/base/add` [(#7169)](https://github.com/stdlib-js/stdlib/pull/7169) _(by Shabareesh Shetty, stdlib-bot)_
+-   [`1b155f1`](https://github.com/stdlib-js/stdlib/commit/1b155f118f396a5e2ad21ab2ca50247684109062) - **chore:** change naming and examples for `complex/float32/base/sub` [(#7168)](https://github.com/stdlib-js/stdlib/pull/7168) _(by Shabareesh Shetty)_
+-   [`b228bf3`](https://github.com/stdlib-js/stdlib/commit/b228bf31d96eacac782648edf8c29141d094a59b) - **docs:** update comments _(by Athan Reines)_
+-   [`3b08499`](https://github.com/stdlib-js/stdlib/commit/3b08499dcdae21f946e61da757c0c21da2e8f9ed) - **docs:** change package naming and examples for `complex/float32/base/mul` [(#7167)](https://github.com/stdlib-js/stdlib/pull/7167) _(by Shabareesh Shetty)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`6afa527`](https://github.com/stdlib-js/stdlib/commit/6afa5271c97c6b90710a4fb15d34bf04e8ae71b4) - **feat:** add `scale` to namespace _(by Athan Reines)_
 -   [`7475c9d`](https://github.com/stdlib-js/stdlib/commit/7475c9dfd5461211d8071b7073b8958300dd5838) - **feat:** add `complex/float32/base/scale` [(#7156)](https://github.com/stdlib-js/stdlib/pull/7156) _(by Shabareesh Shetty, Athan Reines)_
@@ -82,9 +113,10 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Gururaj Gurram
 -   Karan Anand
 -   Philipp Burckhardt
