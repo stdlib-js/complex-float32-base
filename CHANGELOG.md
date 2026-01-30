@@ -2,14 +2,17 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.0">
 
-## Unreleased (2025-11-16)
+## 0.2.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`289cb51`](https://github.com/stdlib-js/stdlib/commit/289cb519b04aac1731b7b872c7fd980090230fc8) - update `complex/float32/base/assert` TypeScript declarations [(#9200)](https://github.com/stdlib-js/stdlib/pull/9200)
+-   [`895d417`](https://github.com/stdlib-js/stdlib/commit/895d417410e631120c7d482ba6a07ab130e18c85) - add `isAlmostSameValue` to namespace
+-   [`95732eb`](https://github.com/stdlib-js/stdlib/commit/95732eba68a330d4038479784cd0d79cc002540a) - add `complex/float32/base/assert/is-almost-same-value`
 -   [`9f96d8d`](https://github.com/stdlib-js/stdlib/commit/9f96d8df1b8e843be0ee98019248a8399745d0f8) - update `complex/float32/base` TypeScript declarations
 -   [`46781e0`](https://github.com/stdlib-js/stdlib/commit/46781e08e44b6f569313453dfd517799e98da393) - update `complex/float32/base/assert` TypeScript declarations
 -   [`c60545c`](https://github.com/stdlib-js/stdlib/commit/c60545c5ac8624783808e72e5a91dbbf6ddb7cad) - add `complex/float32/base/mul-add` [(#5214)](https://github.com/stdlib-js/stdlib/pull/5214)
@@ -28,6 +31,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`668e314`](https://github.com/stdlib-js/stdlib/commit/668e3142881cad00228c2931daa527525c71b000) - use interface rather than class definition
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -63,6 +76,12 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`289cb51`](https://github.com/stdlib-js/stdlib/commit/289cb519b04aac1731b7b872c7fd980090230fc8) - **feat:** update `complex/float32/base/assert` TypeScript declarations [(#9200)](https://github.com/stdlib-js/stdlib/pull/9200) _(by stdlib-bot)_
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
+-   [`668e314`](https://github.com/stdlib-js/stdlib/commit/668e3142881cad00228c2931daa527525c71b000) - **fix:** use interface rather than class definition _(by Athan Reines)_
+-   [`ed084b9`](https://github.com/stdlib-js/stdlib/commit/ed084b9112e1fc708074b29fcb63bbc31cdfaf09) - **chore:** rename variables _(by Athan Reines)_
+-   [`895d417`](https://github.com/stdlib-js/stdlib/commit/895d417410e631120c7d482ba6a07ab130e18c85) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_
+-   [`95732eb`](https://github.com/stdlib-js/stdlib/commit/95732eba68a330d4038479784cd0d79cc002540a) - **feat:** add `complex/float32/base/assert/is-almost-same-value` _(by Athan Reines)_
 -   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`9f96d8d`](https://github.com/stdlib-js/stdlib/commit/9f96d8df1b8e843be0ee98019248a8399745d0f8) - **feat:** update `complex/float32/base` TypeScript declarations _(by Philipp Burckhardt)_
