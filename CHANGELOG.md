@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-19)
+## Unreleased (2026-11-05)
 
 <section class="features">
 
@@ -50,6 +50,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`3d19e26`](https://github.com/stdlib-js/stdlib/commit/3d19e26c5ac90f6e1902ee773e06728fe7d0ec6d) - **chore:** clean-up [(#13914)](https://github.com/stdlib-js/stdlib/pull/13914) _(by Philipp Burckhardt)_
 -   [`59e0278`](https://github.com/stdlib-js/stdlib/commit/59e02788851cc22cc83595c34275d268f6f68c90) - **feat:** update `complex/float32/base` TypeScript declarations [(#13931)](https://github.com/stdlib-js/stdlib/pull/13931) _(by stdlib-bot)_
 -   [`879f1c8`](https://github.com/stdlib-js/stdlib/commit/879f1c8c38558b441ceed6b0d086e0a715a81c99) - **docs:** update namespace table of contents [(#13932)](https://github.com/stdlib-js/stdlib/pull/13932) _(by stdlib-bot)_
